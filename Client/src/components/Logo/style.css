@@ -1,0 +1,18 @@
+.Logo__main {
+  transition: all 0.5s;
+  -webkit-text-stroke: 3px #d6f4f4;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: var(--font);
+  text-align: center;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  text-shadow: 4px 4px 0 var(--body-color), 7px 7px 0 var(--primary-color),
+    14px 14px 15px #fff;
+  cursor: pointer;
+}
+
+.Logo__main:hover {
+  -webkit-text-stroke: 1px #d6f4f4;
+  font-variation-settings: initial;
+  text-shadow: none;
+}

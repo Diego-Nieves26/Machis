@@ -1,0 +1,124 @@
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.container {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  display: none;
+  visibility: hidden;
+}
+
+.bar {
+  position: relative;
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  z-index: 11;
+}
+
+.bar span {
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background: #f1faee;
+  box-shadow: 0px 0px 3px 0px var(--tertiary-color);
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.3s ease;
+  left: 0;
+}
+
+.bar span.top {
+  top: 0;
+}
+
+.bar span.middle {
+  top: 10px;
+}
+
+.bar span.bottom {
+  bottom: 0;
+}
+
+input[type]:checked ~ span.top {
+  background: var(--primary-color);
+  transform: rotate(45deg);
+  transform-origin: top left;
+  width: 30px;
+  left: 5px;
+}
+
+input[type]:checked ~ span.bottom {
+  background: var(--primary-color);
+  transform: rotate(-45deg);
+  transform-origin: top left;
+  width: 30px;
+  bottom: -1px;
+}
+
+input[type]:checked ~ span.middle {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background-color: var(--body-color);
+  transition: 0.35s;
+  padding: 60px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activeMenu {
+  opacity: 1;
+  right: 0;
+}
+
+.hiddenMenu {
+  right: -100%;
+  opacity: 0;
+}
+
+.menu > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu > ul li {
+  cursor: pointer;
+  transition: 0.2s;
+  color: var(--secondary-color);
+}
+
+.menu > ul li:hover {
+  color: var(--primary-color);
+  transform: scale(1.2);
+}
+
+.menu > img {
+  width: 150px;
+}

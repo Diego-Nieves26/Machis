@@ -1,0 +1,9 @@
+.btn_back {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--primary-color);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

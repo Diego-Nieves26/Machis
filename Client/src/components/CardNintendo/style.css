@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Lato;
+  src: url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/lato.woff2")
+      format("woff2"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/lato.woff")
+      format("woff"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/lato.ttf")
+      format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/bebas-neue.woff2")
+      format("woff2"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/bebas-neue.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gill Sans MT Pro";
+  src: url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/gill-sans-mtpro.woff2")
+      format("woff2"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/gill-sans-mtpro.woff")
+      format("woff"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/gill-sans-mtpro.otf")
+      format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/roboto.woff2")
+      format("woff2"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/roboto.woff")
+      format("woff"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/roboto.ttf")
+      format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Pretendo;
+  src: url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/pretendo.woff2")
+      format("woff2"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/pretendo.woff")
+      format("woff"),
+    url("https://manzdev.github.io/twitch-gameboy-cartridge/fonts/pretendo.ttf")
+      format("truetype");
+  font-display: swap;
+}
+
+.container__games__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: var(--secondary-color);
+}
+
+.games__card__img {
+  position: absolute;
+  width: 160px;
+  height: 115px;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.games__card__img > img {
+  width: 120px;
+}

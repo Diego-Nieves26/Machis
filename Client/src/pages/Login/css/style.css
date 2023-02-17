@@ -1,0 +1,95 @@
+.Login {
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Login > div {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.sign_up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 200px;
+  margin: auto;
+}
+
+.form__login input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  padding: 10px;
+  outline: none;
+}
+
+.form__login button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.ornament__login {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.ornament__login span {
+  width: 80px;
+  height: 1px;
+  background-color: rgb(173, 173, 173);
+}
+
+.login__google {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.login__google i {
+  font-size: 1.2rem;
+}
+
+.sign_up h4 {
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.change__login {
+  display: flex;
+  gap: 10px;
+}
+
+.change__login p {
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.change__login button {
+  color: var(--primary-color);
+  font-size: 1rem;
+  border: none;
+  background: none;
+}

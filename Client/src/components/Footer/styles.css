@@ -1,0 +1,39 @@
+.footer {
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
+.footer::before {
+  content: "";
+  width: 100%;
+  border-radius: 40px;
+  height: 7px;
+  background-color: aliceblue;
+}
+
+.footer__main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__main h3 {
+  color: aliceblue;
+}
+
+.footer__main ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__main ul li a {
+  font-size: 30px;
+  color: aliceblue;
+}

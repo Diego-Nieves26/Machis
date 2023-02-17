@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Uchen", serif;
+}
+
+:root {
+  --body-color: #1a202c;
+  --primary-color: #32d4a4;
+  --secondary-color: #fff;
+  --tertiary-color: #fff;
+  --text-color: #f2f2f2;
+  --quaternary-color: #fff;
+  --button-color: #242529;
+  --card-color: hsl(0, 0%, 90%);
+  --container-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--body-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+body {
+  background-color: var(--body-color);
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
